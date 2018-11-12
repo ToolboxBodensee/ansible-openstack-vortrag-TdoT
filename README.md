@@ -23,7 +23,7 @@ grobe Vortragsaufteilung:
    
  Openstack Vortragsaufbau
 -------------------------
- + Was ist Openstack - Funktion - Aufbau (die Openstack-Komponenten) - Einzelbestandteile - Historie und Versionen
+ + Was ist Openstack - Funktion - Aufbau (die Openstack-Komponenten) - Zusammenspiel der Komponenten - Historie und Versionen
  + Welche Hardware verwenden wir dafür in der Toolbox und wie sieht die aus? + Vernetzung
  + Openstack mit Ansible aufsetzen...sehr sehr langes Thema - sind ingesamt unfassbare 36 Ansible-Rollen und 88 Playbooks!
  + Wie haben wir das in der Toolbox gemacht? - Openstack-Helm verwendet, zur ersten Installation einfachere Version. Baut auf Kubernetes      auf und verwendet Docker, um die einzelenen Openstack-Komponenten auf einem einzigen (unserem) Server laufen zu lassen
