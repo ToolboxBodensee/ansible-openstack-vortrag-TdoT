@@ -127,7 +127,7 @@
 \end{frame}
 
 
-\subsection{bestandteile} 
+\subsection{Die Bestandteile} 
 \begin{frame}{Kernbestandteile bei Ansible}
     \begin{columns}
         \begin{column}{0.33\textwidth}
@@ -143,8 +143,8 @@
         \begin{column}{0.33\textwidth}
             \textbf{Modules}
             \begin{itemize}
-                \item stellen funktionen zur verfügung
-                \item können system resources verwalten
+                \item stellen Funktionen zur verfügung
+                \item können System Resourcen verwalten
                 \item Services, Packete, Dateien\ldots (anything really)
                 \item System Befehle ausführen
                 \item nicht nur auf Linux
@@ -155,7 +155,7 @@
             \textbf{Playbooks}
             \begin{itemize}
                 \item führen Aktionen auf der Infrastruktur aus
-                \item automatisies Installieren
+                \item automatisiertes Installieren
                 \item automatisiertes Konfigurieren
                 \item modularer Aufbau
                 \item „like a to-do list for Ansible“
@@ -210,6 +210,20 @@
         \end{column}
     \end{columns}
 \end{frame}
+
+\subsection{Demo} 
+\begin{frame}{Bei Freifunk Bodensee werden die Server mit Ansible administriert}
+    \begin{columns}
+        \begin{column}{1.0\textwidth}
+            \centering
+            \textbf{https://github.com/ffbsee/ansible} \\
+            \textbf{Demonstration:} \\
+            Aktualisieren der Adminiistratoren und Packete aller Gateway Server \\
+            \lstinputlisting[language=bash]{demo.sh}
+        \end{column}
+    \end{columns}
+\end{frame}
+
 
 
 
