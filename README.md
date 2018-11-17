@@ -8,8 +8,8 @@ Hier gibt es die Vortrags-Daten und -Folien/Diagramm zum Vortrag über Ansible u
 --------------------------
 Geplanter Zeitslot: ``13:30 - 14:30``
 grobe Vortragsaufteilung:
-  + ~23 Minuten ansible
-  + ~23 Minuten OpenStack
+  + ~13 Minuten ansible
+  + ~33 Minuten OpenStack
   + ~15 Minuten Fragen
 
  Ansible Vortragsaufbau
