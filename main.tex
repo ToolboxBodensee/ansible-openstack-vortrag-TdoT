@@ -106,7 +106,7 @@
              Dabei habt ihr bestimmt\ldots
                 \begin{itemize}
                     \item Grundsystem per Hand installiert und Benutzer eingerichtet?
-                    \item ggf. mit Shell Skripten einzelne Teile eingerichtet?
+                    \item ggf.\ mit Shell Skripten einzelne Teile eingerichtet?
                     \item manuell die Konfigurationsdateien bearbeitet?
                     \item euer laufendes System zerschossen?
                 \end{itemize}
@@ -114,14 +114,80 @@
     \end{columns}
 \end{frame}
 
-
+  
 \section{Ansible} 
 \begin{frame}{Wieso Ansible?}
     \begin{columns}
         \begin{column}{1.0\textwidth}
+            \centering
             \includegraphics[width=0.85\textwidth]{why_ansible.png}
+        \end{column} 
+    \end{columns}
+\end{frame}
+
+
+\subsection{bestandteile} 
+\begin{frame}{Kernbestandteile bei Ansible}
+    \begin{columns}
+        \begin{column}{0.33\textwidth}
+            \textbf{Inventory}
+            \begin{itemize}
+                \item beschreibt das Inventar
+                \item Hosts und Host-Gruppen
+                \item globale variabeln
+                \item Gruppen, Host, OS spezifische variabeln
+            \end{itemize}
+        \end{column}
+        \pause
+        \begin{column}{0.33\textwidth}
+            \textbf{Modules}
+            \begin{itemize}
+                \item stellen funktionen zur verfügung
+                \item können system resources verwalten
+                \item Services, Packete, Dateien\ldots (anything really)
+                \item System Befehle ausführen
+                \item nicht nur auf Linux
+            \end{itemize}
+        \end{column}
+        \pause
+        \begin{column}{0.34\textwidth}
+            \textbf{Playbooks}
+            \begin{itemize}
+                \item führen Aktionen auf der Infrastruktur aus
+                \item automatisies Installieren
+                \item automatisiertes Konfigurieren
+                \item modularer Aufbau
+                \item „like a to-do list for Ansible“
+            \end{itemize}
         \end{column}
     \end{columns}
+\end{frame}
+
+
+
+
+\section{Openstack} 
+\begin{frame}{Openstack}
+    \begin{columns}
+        \begin{column}{1.0\textwidth}
+            \centering
+            \includegraphics[width=0.5\textwidth]{openstack.png}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+
+\section{Ende}
+ \subsection{}
+\begin{frame}{}
+    \begin{center}
+        {\Huge Vielen Dank für eure Aufmerksamkeit!}
+        
+        \vspace{0.8cm}
+        
+        {\huge Gibt es noch Fragen?}
+    \end{center}
 \end{frame}
 
 \end{document}
