@@ -17,9 +17,13 @@ grobe Vortragsaufteilung:
  + Erklärung was Ansible ist
  + Wie es funktioniert
  + was man alles mit machen kann...
- + Beispiel zeigen *(mit [asciinema](https://asciinema.org/) als Komandozeile um F*ckups zu vermeiden...)*
+ + Beispiel zeigen (mit [asciinema](https://asciinema.org/) als Komandozeile um F\*ckups zu vermeiden...)
    + Beispiel ist vermutlich der [Waffelzähler](https://github.com/ToolboxBodensee/ansible-waffelzaehler)
-   
+ 
+  run the themo with this command:
+```bash
+asciinema play -i 2.5 cast-ansibel.cast
+```  
    
  Openstack Vortragsaufbau
 -------------------------
