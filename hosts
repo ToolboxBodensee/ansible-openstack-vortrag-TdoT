@@ -1,0 +1,6 @@
+[freifunk]
+gw01.ffbsee.net 
+gw02.ffbsee.net ansible_host="2a02:168:4638:f0::10"
+gw03.ffbsee.net
+gw04.ffbsee.net
+meta.ffbsee.net

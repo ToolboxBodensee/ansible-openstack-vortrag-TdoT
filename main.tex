@@ -6,6 +6,7 @@
 \usepackage[european]{circuitikz}
 \usepackage{pgfplots}
 \usepackage{pdfpcnotes}
+\usepackage{listings}
 
 \usetheme{CambridgeUS}
 
@@ -159,6 +160,53 @@
                 \item modularer Aufbau
                 \item „like a to-do list for Ansible“
             \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+
+
+\section{Freifunk} 
+\begin{frame}{Bei Freifunk Bodensee werden die Server mit Ansible administriert}
+    \begin{columns}
+        \begin{column}{1.0\textwidth}
+            \centering
+            \textbf{https://github.com/ffbsee/ansible} \\
+            \includegraphics[width=0.5\textwidth]{ffbsee.png}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\subsection{Playbook \ldots} 
+\begin{frame}{Bei Freifunk Bodensee werden die Server mit Ansible administriert}
+    \begin{columns}
+        \begin{column}{1.0\textwidth}
+            \centering
+            \textbf{https://github.com/ffbsee/ansible} \\
+        \lstinputlisting[language=Python]{update_admins.yml}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\subsection{Ansible Hosts} 
+\begin{frame}{Bei Freifunk Bodensee werden die Server mit Ansible administriert}
+    \begin{columns}
+        \begin{column}{1.0\textwidth}
+            \centering
+            \textbf{https://github.com/ffbsee/ansible} \\
+        \lstinputlisting[language=Python]{hosts}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\subsection{Modules} 
+\begin{frame}{Bei Freifunk Bodensee werden die Server mit Ansible administriert}
+    \begin{columns}
+        \begin{column}{1.0\textwidth}
+            \centering
+            \textbf{https://github.com/ffbsee/ansible} \\
+            \lstinputlisting[language=Python]{update.yml}
         \end{column}
     \end{columns}
 \end{frame}

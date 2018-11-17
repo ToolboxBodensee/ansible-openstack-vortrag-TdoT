@@ -1,0 +1,13 @@
+---
+- name: Update all packages to the latest version
+  apt:
+    upgrade: dist
+
+- name: Install a list of packages
+  apt:
+    name: "{{ packages }}"
+  vars:
+    packages:
+    - python3 
+    - vim
+    - tmux
